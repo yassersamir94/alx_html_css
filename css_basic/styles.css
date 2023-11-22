@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(160, 150, 140);
+    font-size: medium;
+    font-weight: 500;
+}
+header {
+    background-color: rgb(99, 95, 91);
+    font-size: larger;
+}
+h1 {
+    color: rgba(189, 67, 11, 0.856);
+    font-weight: 400;
+    text-align: center;
+}
+h2 {
+    color: rgba(88, 34, 9, 0.856);
+}
+h3 {
+    color: rgba(100, 39, 10, 0.856);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex:auto
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: rgb(206, 193, 181);
+}
